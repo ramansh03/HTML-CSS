@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+body{
+
+    background-color: wheat;
+    width: 85%;
+    margin-left: 80px;
+}
+
+#outer-div{
+
+    width: 85%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    border: 2px solid lightslategrey;
+}
+
+img{
+
+    padding-top: 10px;
+    height: 120px;
+    width: 200px;
+}
+
+#proposal-form{
+
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    justify-content: center;
+}
+
+#paragraph-1{
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+ul{
+    padding: 0px;
+}
+
+ul li{
+    margin-left: 30px;
+}
+
+#box-table, #details-table-p1, #details-table-p2{
+    width: 90%;
+}
+
+#box-table td{
+    border: 1px solid black;
+}
+
+#box-table .td-no-border{
+    border: 0px !important;
+}
+
+#box-table .form-photo-div{
+    
+    margin-left: 50px;
+    width: 80%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.section-a{
+    background-color: yellow;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    padding: 2px;
+    text-align: center;
+}
+
+td{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.w-100-text{
+    float: left;
+}
+
+.w-100-div{
+    overflow: auto;
+    padding: 2px;
+}
+
+.w-100-input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.text-top{
+    vertical-align: text-top;
+}
+
+.warning-italic{
+    font-style: italic;
+    text-align: center;
+}

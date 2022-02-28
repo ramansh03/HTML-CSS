@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Roboto Mono', monospace;;
+    /* font-family: 'Roboto Mono', monospace; */
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    display: flex;
+    width: 550px;
+    margin-top: 50px;
+    border: 2px black solid;
+    background-color: lightgoldenrodyellow;
+    
+
+}
+
+.card .left{
+
+  margin: 10px;
+height: 200px;
+width: 200px;
+
+border: solid black 2px;
+}
+.card .right h1{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: flex-start;    
+    padding-top: 9px;
+}
+
+.card .right p{
+
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 17px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.card .right p i{
+    padding-right: 5px;
+    size: 20px;
+}
+
+.card .vertical{
+    border-left: solid black 2px;
+  }
